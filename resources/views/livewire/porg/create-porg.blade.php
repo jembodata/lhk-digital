@@ -206,8 +206,8 @@ new class extends Component {
             <x-input wire:model="nama_operator" label="Nama Operator" placeholder="Masukan Nama Operator" icon="users" />
             <x-input wire:model="bahan_material" label="Item/Bahan Material" placeholder="Masukan Nama Bahan/Item" icon="tag" />
             <x-input wire:model="hour_meter" label="Hour Meter" placeholder="Masukan Hour Meter" icon="tag" />
-            <x-input wire:model="actual_output" label="Actual Output" placeholder="Masukan Actual Output" icon="tag" />
-            <x-input wire:model="target_output" label="Target Output" placeholder="Masukan Target Output" icon="tag" />
+            <x-input wire:model="actual_output" label="Actual Output (m)" placeholder="Masukan Actual Output" icon="tag" />
+            <x-input wire:model="target_output" label="Target Output (m)" placeholder="Masukan Target Output" icon="tag" />
             <x-input wire:model="nama_customer" label="Nama Customer" placeholder="Masukan Nama Custumer" icon="users" />
         </form>
     </div>
